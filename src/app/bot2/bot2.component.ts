@@ -4,7 +4,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-bot2',
   templateUrl: './bot2.component.html',
-  styleUrls: ['./bot2.component.css']
+  styleUrls: [ './bot2.component.css' ],
+  standalone: false
 })
 export class Bot2Component implements OnInit {
 

@@ -10,7 +10,8 @@ window.WebChat = window.WebChat || {};
 @Component( {
   selector: 'app-bot1',
   templateUrl: './bot1.component.html',
-  styleUrls: [ './bot1.component.css' ]
+  styleUrls: [ './bot1.component.css' ],
+  standalone: false
 } )
 export class Bot1Component implements OnInit {
   @ViewChild( 'botWindow' ) botWindowElement: ElementRef;
